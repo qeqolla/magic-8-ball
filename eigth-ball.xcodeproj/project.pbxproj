@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D11216327A5B23300DE1500 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D11216227A5B23300DE1500 /* Network.swift */; };
 		1D7AD4C127A3F07D00F403A0 /* eigth_ballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AD4C027A3F07D00F403A0 /* eigth_ballApp.swift */; };
 		1D7AD4C327A3F07D00F403A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AD4C227A3F07D00F403A0 /* ContentView.swift */; };
 		1D7AD4C527A3F07E00F403A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7AD4C427A3F07E00F403A0 /* Assets.xcassets */; };
 		1D7AD4C827A3F07E00F403A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7AD4C727A3F07E00F403A0 /* Preview Assets.xcassets */; };
+		1D93D85827A5C7070005F4C2 /* ShakeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D93D85727A5C7070005F4C2 /* ShakeController.swift */; };
+		1DEECEC827A463E80094E8FF /* EightBallGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEECEC727A463E80094E8FF /* EightBallGame.swift */; };
+		1DEECECC27A4640B0094E8FF /* EightBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEECECB27A4640B0094E8FF /* EightBall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D11216227A5B23300DE1500 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		1D7AD4BD27A3F07D00F403A0 /* eigth-ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eigth-ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7AD4C027A3F07D00F403A0 /* eigth_ballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eigth_ballApp.swift; sourceTree = "<group>"; };
 		1D7AD4C227A3F07D00F403A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D7AD4C427A3F07E00F403A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D7AD4C727A3F07E00F403A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D93D85727A5C7070005F4C2 /* ShakeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeController.swift; sourceTree = "<group>"; };
+		1DEECEC727A463E80094E8FF /* EightBallGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBallGame.swift; sourceTree = "<group>"; };
+		1DEECECB27A4640B0094E8FF /* EightBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				1D7AD4C027A3F07D00F403A0 /* eigth_ballApp.swift */,
+				1DEECEC727A463E80094E8FF /* EightBallGame.swift */,
 				1D7AD4C227A3F07D00F403A0 /* ContentView.swift */,
 				1D7AD4C427A3F07E00F403A0 /* Assets.xcassets */,
 				1D7AD4C627A3F07E00F403A0 /* Preview Content */,
+				1DEECECB27A4640B0094E8FF /* EightBall.swift */,
+				1D11216227A5B23300DE1500 /* Network.swift */,
+				1D93D85727A5C7070005F4C2 /* ShakeController.swift */,
 			);
 			path = "eigth-ball";
 			sourceTree = "<group>";
@@ -83,6 +95,8 @@
 			dependencies = (
 			);
 			name = "eigth-ball";
+			packageProductDependencies = (
+			);
 			productName = "eigth-ball";
 			productReference = 1D7AD4BD27A3F07D00F403A0 /* eigth-ball.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,8 @@
 				Base,
 			);
 			mainGroup = 1D7AD4B427A3F07D00F403A0;
+			packageReferences = (
+			);
 			productRefGroup = 1D7AD4BE27A3F07D00F403A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D93D85827A5C7070005F4C2 /* ShakeController.swift in Sources */,
+				1D11216327A5B23300DE1500 /* Network.swift in Sources */,
+				1DEECEC827A463E80094E8FF /* EightBallGame.swift in Sources */,
 				1D7AD4C327A3F07D00F403A0 /* ContentView.swift in Sources */,
+				1DEECECC27A4640B0094E8FF /* EightBall.swift in Sources */,
 				1D7AD4C127A3F07D00F403A0 /* eigth_ballApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
